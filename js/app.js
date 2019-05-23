@@ -8,7 +8,7 @@ matCount.innerHTML = 11;
 
 msgCount.innerHTML = 23;
 //3. In the div id data section, target the div element with the id of 'fullname' and change Full Name to Ronald McDonald.
-fullname.innerHTML = 'PEDO THE CLOWN';
+fullname.innerHTML = 'Ronald McDonald';
 
 //4. In the div id data section, target the div element with the id of 'age' and change Age to 63 Years Old.
 
@@ -16,7 +16,12 @@ age.innerHTML = 63;
 
 //5. In the div id data section, create a div with an id of job and give it the following information: Clown and Restauranteur.
 
-job
+var jobBox = document.createElement('div');
+jobBox.id = 'job';
+jobBox.innerHTML = 'Clown and Restauranteur';
+data.appendChild(jobBox);
+
+
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
 
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
